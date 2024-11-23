@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --first: #FE8F48;
+  --second: #3e8da4;
+}
+h1,h2,h3,li{
+  
+  font-family:var(--font-Cairo-Bold);
+
+}
+p{
+  font-family:var(--font-Cairo-ExtraLight);
+
+}
+body{
+  font-family:var(--font-Cairo-ExtraLight);
+  background-color:linear-gradient(#addeed, #bee5f1 30%, #ffefe500);
+  font-display: swap;
+ }
+ 
